@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/coronakit">
+<Resource name="jdbc/MyDB"
+      auth="Container"
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://localhost:3306/cpkdb"
+      username="root"
+      password="password"
+
+      maxTotal="100"
+      maxIdle="20"
+      minIdle="5"
+      maxWaitMillis="10000"/>
+  
+
+</Context>
