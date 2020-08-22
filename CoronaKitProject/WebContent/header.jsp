@@ -9,8 +9,8 @@
 <body>
 
 <h2>Corona Kit Ordering System</h2>
-
-     <c:if test = "${login = 1}">
+<a href ="index.jsp">Home </a> <span>  |  </span>
+     <c:if test = "${login ==1}">
          <a href="admin?action=logout">logout </a>
       </c:if>
 

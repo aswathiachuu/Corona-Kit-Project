@@ -15,12 +15,12 @@
 <div>
 <p> Dear   ${user }    Order Id   ${orderid } has bean processed. 
 Summary send to Contact number ${contact}.
-Invoice has bean send to Email ${email }
+Invoice has been send to Email ${email }
 </p>
 </div>
 
 <div>
-<p>Thank you for shoping</p>
+<p>Thank you for shopping</p>
 </div>    
 
 <hr/>	

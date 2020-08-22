@@ -24,9 +24,9 @@
 		<c:forEach var="item" items="${itemList }">
 			<tr>
 				<td>
-				<span>${item.itemNo }</span></td>
+				<span>${item.itemNo } </span></td>
 				<td>
-				<span>${item.itemName }</span></td>
+				<span>${item.itemName } </span></td>
 				<td>
 				<span>${item.itemDesc }</span></td>
 				<td>
@@ -35,11 +35,12 @@
 			</tr>
 		</c:forEach>
 	</table>
-<p><a href="admin?action=newproduct">Add Product</a> 
-<a href="admin?action=editproduct&operaction=editproduct">Modify Product</a>
-<a href="admin?action=editproduct&operaction=deleteproduct">Delete Product</a>
+	<nav>
+<p><a href="admin?action=newproduct">Add Product</a> <span> | </span>
+<a href="admin?action=editproduct&operaction=editproduct">Modify Product</a> <span> | </span>
+<a href="admin?action=editproduct&operaction=deleteproduct">Delete Product</a> <span> | </span>
 </p>
-<hr/>	
+</nav><hr/>	
 	<jsp:include page="footer.jsp"/>
 </body>
 </html>

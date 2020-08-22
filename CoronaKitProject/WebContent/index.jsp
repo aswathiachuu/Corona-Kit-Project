@@ -10,6 +10,10 @@
 <div>
 <jsp:include page="header.jsp"/>
 <hr/>
+<div>
+	<a href="user?action=newuser"><h3>Click here to Order a new Corona  Prevention Kit</h3></a> 
+</div>
+
 	<h4>Admin Login</h4>
 	<%
 	      String user = (String) getServletContext().getAttribute("access");
@@ -36,9 +40,7 @@
 	</form>
 </div>
 <hr/>
-<div>
-	<a href="user?action=newuser"><h2>Order a new Corona Kit</h2></a> 
-</div>
+
 
 <%
 			}
@@ -46,7 +48,7 @@
 			{
 				%>
 				
-			<p> <%=se %> loged In</p>	
+			<p> <%=se %> logged In</p>	
 				
 	<% 							
 			}

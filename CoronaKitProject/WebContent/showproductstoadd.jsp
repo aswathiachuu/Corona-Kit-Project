@@ -51,7 +51,9 @@
 	</div>
 
 <div>	
- <p> <a href="user?action=ordersummary">Show Order Summary </a> <label> No of Item in Cart ${noofcart } and Total Amount ${tamount } </label> </p>
+<label> Number of Items in the Cart <strong>${noofcart }</strong>  and Total Bill Amount is <strong> ${tamount }</strong>  </label>
+<hr />
+ <h4> <a href="user?action=ordersummary">Click Here to View Order Summary </a></h4>  
  </div>
 </form> 
 

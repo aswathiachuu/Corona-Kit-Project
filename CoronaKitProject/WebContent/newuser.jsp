@@ -14,9 +14,10 @@
 	<form action="user?action=insertuser" method="post">
 	
 	<div>
-		<p> <label> Name</label><input name="patients" value="">
-		 	<label> Contact</label><input name="contact" value="">
-		 	<label> Email</label><input name="email" value="">		   
+	<h3>Enter Your Details Before Ordering</h3>
+		<p> <label> Name</label><input name="patients" value=""> <br/>
+		 	<label> Contact</label><input name="contact" value=""> <br/>
+		 	<label> Email</label><input name="email" value=""> <br/>		   
 		 </p>
 	</div>
 	

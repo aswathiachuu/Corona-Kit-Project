@@ -48,12 +48,14 @@
 			</tr>
 		</c:forEach>
 		<tr colspan="3"  style="width:50%;text-align:right;margin-left:0" >
-				<td>
-				<span>${tamount }</span>
+			
+				
 			</tr>
 	</table>
 
 </div>
+
+<h4> <span>Total Cart Value : ${tamount }</span> </h4>
 
 <p> <a href="user?action=placeorder">Confirm Order</a> <a href="user?action=showproducts">Continue Shoping</a> </p>
 
